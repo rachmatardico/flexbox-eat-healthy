@@ -248,6 +248,7 @@ body {
     transform: scaleY(0);
     transform-origin: 100% 100%;
     transition: all .3s ease-in-out;
+    border-radius: 10px;
 }
 
 .img-container:hover::after {
