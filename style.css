@@ -281,6 +281,7 @@ body {
     flex: 1 1 600px;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
 .food-description {
