@@ -15,3 +15,62 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ---> Utility classes <--- */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+/* ---> Navbar Styling <--- */
+
+/* For desktop mode*/
+.navbar input[type='checkbox'],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 #aaa;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+
+.nav-links {
+    order: 2;
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+
+.nav-links li a:hover {
+    color: #119764;
+    font-weight: 500;
+}
+
+.logo {
+    order: 1;
+    font-size: 3rem;
+}
