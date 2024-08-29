@@ -22,6 +22,37 @@ body {
     width: 90%;
     margin: auto;
 }
+
+.cta-button {
+    display: inline-block;
+    padding: .6rem 1.6rem;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    backface-visibility: hidden;
+    background: #16a083;
+    transition: .5s ease;
+}
+
+.cta-button:hover {
+    padding: .6rem 1.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #16a083;
+    text-shadow: -2px -1px 5px rgba(0,0,0,0.6);
+    box-shadow: -2px 2px 6px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 6px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 6px -2px rgba(0,0,0,0.75);
+}
 /* ---> Navbar Styling <--- */
 
 /* For desktop mode*/
@@ -73,4 +104,27 @@ body {
 .logo {
     order: 1;
     font-size: 3rem;
+}
+
+/* ---> Showcase styling <--- */
+.showcase-area {
+    height: 50vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.244),rgba(255, 255, 255, 0.436)), url(./img/header-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1em;
+}
+
+.main-title {
+    text-transform: uppercase;
+    text-shadow: -2px -1px 5px rgba(0,0,0,0.1);
 }
