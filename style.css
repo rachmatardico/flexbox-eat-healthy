@@ -371,6 +371,7 @@ body {
 #contact {
     padding: 5rem 0;
     background: white;
+    margin-bottom: 2em;
 }
 
 #contact h2 {
@@ -460,6 +461,6 @@ body {
     padding: 1rem;
     font-weight: 400;
     color: #fff;
-    background-color: #000;
+    background-color: #363636;
     margin-top: -2em;
 }
