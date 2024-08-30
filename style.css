@@ -452,3 +452,14 @@ body {
     width: 100%;
     text-align: center;
 }
+
+/* ---> Footer styling <--- */
+#footer h2 {
+    text-align: center;
+    font-size: .9em;
+    padding: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+    margin-top: -2em;
+}
